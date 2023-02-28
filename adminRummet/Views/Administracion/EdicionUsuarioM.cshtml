@@ -1,0 +1,367 @@
+﻿@{
+    Layout = "_NavFormNuevoUsuario";
+}
+
+<div class="container-lg ">
+    <div class="row">
+        <div class="col">
+            <!--      Wizard container        -->
+
+            <div class="wizard-container">
+
+                <div class="card wizard-card" data-color="orange" id="wizardProfile">
+                    <form action="" method="">
+
+                        <div class="wizard-navigation">
+                            <ul>
+                                <li><a href="#documentacion" data-toggle="tab">Documentación</a></li>
+                                <li><a href="#personales" data-toggle="tab">Personales</a></li>
+                                <li><a href="#generales" data-toggle="tab">Generales</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane" id="generales">
+                                <div class="row">
+                                    <label for="" class="">
+                                        <h5 class="ms-1 color_letter">Datos del usuario</h5>
+                                    </label>
+                                    <div class="d-flex me-5 justify-content-end">
+                                        <label class="d-flex justify-content-end color_letter me-4">Activar / Desactivar</label>
+                                    </div>
+
+                                    <div class="form-check form-switch   mt-1 d-flex justify-content-end ">
+
+                                        <input class="form-check-input margin-l-sw" type="checkbox" id="flexSwitchCheckDefault">
+                                    </div>
+                                    <div class="input-group justify-content-between  d-lg-inline-flex mt-2 ">
+                                        <div class="mt-1 ms-2">
+                                            <label for="t_operacion" class=" align-content-start fw-bold color_letter mb-3">
+                                                Tipo de
+                                                usuario
+                                            </label>
+                                            <select class="border-labels size-select2 rounded text-center " aria-label="Default select example">
+                                                <option disabled selected>Roles</option>
+                                                <option value="1">Admin ROOT</option>
+                                                <option value="2">Admin general</option>
+                                                <option value="3">Admin TI</option>
+                                                <option value="4">Admin propiedades</option>
+                                                <option value="5">Admin brokers</option>
+
+                                            </select>
+                                        </div>
+                                        <div class=" d-lg-inline-block  ms-lg-3 p-1 ">
+                                            <div class=" d-inline form-group label-floating">
+                                                <label for="nombres" class=" color_letter2 size-text control-label">Nombre(s)</label>
+                                                <input type="text" name="apellido_m" id="nombres" required class="mt-2 form-control" />
+                                            </div>
+                                        </div>
+                                        <div class=" d-lg-inline-block p-1">
+                                            <div class=" d-inline form-group label-floating">
+                                                <label for="" class=" color_letter2 size-text control-label">Apellido paterno</label>
+                                                <input type="text" name="apellido_p" required class="mt-2 form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="d-lg-inline-block  me-lg-2 p-1">
+                                            <div class=" d-inline form-group label-floating ">
+                                                <label for="" class=" color_letter2 size-text control-label">Apellido materno</label>
+                                                <input type="text" class=" form-control mt-2" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+
+
+
+
+                                    <div class="input-group d-lg-inline-flex justify-content-end mt-lg-3 mb-lg-2 ms-lg-2 align-content-between ">
+                                        <div class=" d-lg-inline-block me-lg-5 form-group label-floating mt-1 p-1 ">
+                                            <label for="correo_elec" class="control-label color_letter2 size-text">Correo electrónico <small> *</small></label>
+                                            <input type="text" name="correo_elec" required class=" form-control mt-2" />
+                                        </div>
+                                        <div class=" d-lg-inline-block ms-lg-5 me-lg-5 form-group mt-1 label-floating p-1 ">
+                                            <label for="tel" class=" color_letter2 size-text control-label ">Teléfono</label>
+                                            <input type="number" name="tel" required min="0" class="mt-2 form-control NobtnNumber" />
+                                        </div>
+
+                                        <div class=" d-lg-inline-block ms-lg-5 me-lg-2 p-1 form-group mt-1 label-floating p-1 ">
+                                            <label for="n_propiedad" class=" color_letter2 size-text control-label">Celular</label>
+                                            <input type="number" name="cel" id="nombre_propiedad" min="0" required class="mt-2 form-control NobtnNumber" />
+                                        </div>
+
+
+
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="personales">
+                                <div class="row">
+                                    <div class="col-sm-10 col-sm-offset-1">
+
+
+                                        <label for="datos_personales" class="fw-bold ms-lg-2">
+                                            <h5 class="color_letter">Datos personales</h5>
+                                        </label>
+                                        <div class="input-group justify-content-between  d-lg-inline-flex mt-2 ">
+                                            <div class="mt-1 ms-2">
+                                                <label for="t_operacion" class=" align-content-start fw-bold color_letter mb-3">
+                                                    Selecciona tu imagen
+                                                    de perfil
+                                                </label>
+                                                <div class="input-group mt-3 fileContainer text-center">
+                                                    <input type="file" id="archivo" name="archivo" class="">
+                                                    <img src="~/img/image-form-usuario/Recurso_usuario.png" id="preview" alt="" class="profile_picture rounded-circle">
+                                                    <label for="" class="text-center btn-orange text-light mt-1 size_text_profile">
+                                                        Dale click
+                                                        aquí
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class=" d-lg-inline-block  p-1 ms-lg-5 form-group label-floating">
+                                                <label for="rfc" class="color_letter2 size-text control-label">RFC</label>
+                                                <input type="text" name="rfc" id="rfc" required class="mt-2 form-control" />
+                                            </div>
+                                            <div class=" d-lg-inline-block   p-1 me-lg-5 form-group label-floating">
+                                                <label for="curp" class=" color_letter2 control-label size-text">CURP</label>
+                                                <input type="text" name="curp" id="curp" required class="mt-2 form-control" />
+                                            </div>
+
+                                        </div>
+                                        <div class="input-group justify-content-between  d-lg-inline-flex mt-2 ">
+                                            <div class="mt-1 ms-2 me-3">
+                                                <label for="d_bancarios" class=" align-content-start fw-bold  pe-lg-5 mb-3 size-text">
+                                                    <h5 class="color_letter">Datos bancarios</h5>
+                                                </label>
+
+                                            </div>
+                                            <div class=" d-lg-inline-block  mt-5 me-4 margin-l form-group label-floating">
+                                                <label for="clabe_inter" class=" control-label  color_letter2 size-text">
+                                                    Clabe
+                                                    interbancaria
+                                                </label>
+                                                <input type="number" min="0" name="clabe_inter" required class="mt-2 form-control NobtnNumber" />
+                                            </div>
+                                            <div class=" d-lg-inline-block margin-t p-1 me-lg-5">
+                                                <label for="banco" class=" color_letter2 size-text">Banco</label>
+                                                <select class="border-labels rounded text-center size-select2 " aria-label="Default select example">
+                                                    <option disabled selected>Banco</option>
+                                                    <option value="Banamex">Banamex</option>
+                                                    <option value="Bancomer">Bancomer</option>
+                                                    <option value="Santander">Santander</option>
+                                                    <option value="Banbajio">Banbajio</option>
+                                                    <option value="Banmifel">Banmifel</option>
+
+                                                </select>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="documentacion">
+                                <div class="row">
+
+
+                                    <label for="documentos" class="">
+                                        <h5 class="ms-1 color_letter">Documentos</h5>
+                                    </label>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class=" my-custom-scrollbar  table-height table-responsive">
+                                                <table class="table table-hover border-gray h-100 border">
+                                                    <thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td colspan="2">Comprobante de domicilio</td>
+                                                            <td>
+                                                                <div class="fileContainer2 input-group">
+                                                                    <input type="file" name="s_archivo" id="archivoInput" class=" me-5"
+                                                                           onchange="return validarExt()">
+                                                                    <i class="fa-solid fa-file-arrow-up size-icon ms-3 "></i>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="fileContainer3  input-group">
+                                                                    <input type="button" name="d_archivo" id="archivoInput_delete" class="eliminarprueba me-3">
+                                                                    <i class="fa-solid fa-trash-can size-icon me-5"></i>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="fileContainer3 input-group">
+                                                                    <input type="button" name="v_archivo4" id="" onclick="visorExt()" class=" me-3">
+                                                                    <i class="fa-solid fa-eye size-icon me-5"></i></i>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="fileContainer3 input-group me-4">
+                                                                    <input type="button" name="p_archivo1" id="" class="ms-3">
+                                                                    <i class="fa-solid fa-arrow-rotate-right size-icon ms-3"></i>
+                                                                    <h6 class="font-size-visualizador text-center">proceso</h6>
+                                                                </div><div class="fileContainer3 d-none input-group me-4">
+                                                                    <input type="button" name="a_archivo1" id="" class="ms-3">
+                                                                    <i class="fa-solid fa-arrow-rotate-right size-icon ms-3"></i>
+                                                                    <h6 class="font-size-visualizador text-center">aprobado</h6>
+                                                                </div> <div class="fileContainer3 d-none input-group me-4">
+                                                                    <input type="button" name="a_archivo1" id="" class="ms-3">
+                                                                    <i class="fa-solid fa-xmark size-icon ms-3 text-center d-flex"></i>
+                                                                    <h6 class="font-size-visualizador text-center">rechazado</h6>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2</th>
+                                                            <td colspan="2">Estado de cuenta bancario (carátula)</td>
+                                                            <td>
+                                                                <div class="fileContainer2 input-group">
+                                                                    <input type="file" name="s_archivo2" id="archivoInput2" class="me-5"
+                                                                           onchange="return validarExt2()">
+                                                                    <i class="fa-solid fa-file-arrow-up size-icon ms-3 size-icon "></i>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="fileContainer3 input-group">
+                                                                    <input type="button" name="d_archivo2" id="archivoInput_delete2" class="eliminarprueba me-3">
+                                                                    <i class="fa-solid fa-trash-can me-5 size-icon"></i>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="fileContainer3 input-group">
+                                                                    <input type="button" name="v_archivo4" id="" onclick="visorExt2()" class=" me-3">
+                                                                    <i class="fa-solid fa-eye me-5 size-icon"></i></i>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="fileContainer3 input-group me-4">
+                                                                    <input type="button" name="p_archivo1" id="" class="ms-3">
+                                                                    <i class="fa-solid fa-arrow-rotate-right size-icon ms-3"></i>
+                                                                    <h6 class="font-size-visualizador text-center">proceso</h6>
+                                                                </div><div class="fileContainer3 d-none input-group me-4">
+                                                                    <input type="button" name="a_archivo1" id="" class="ms-3">
+                                                                    <i class="fa-solid fa-arrow-rotate-right size-icon ms-3"></i>
+                                                                    <h6 class="font-size-visualizador text-center">aprobado</h6>
+                                                                </div> <div class="fileContainer3 d-none input-group me-4">
+                                                                    <input type="button" name="a_archivo1" id="" class="ms-3">
+                                                                    <i class="fa-solid fa-xmark size-icon ms-3 text-center d-flex"></i>
+                                                                    <h6 class="font-size-visualizador text-center">rechazado</h6>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3</th>
+                                                            <td colspan="2">Constancia fiscal</td>
+                                                            <td>
+                                                                <div class="fileContainer2 input-group">
+                                                                    <input type="file" name="s_archivo" id="archivoInput3" class="me-5"
+                                                                           onchange="return validarExt3()">
+                                                                    <i class="fa-solid fa-file-arrow-up ms-3 size-icon"></i>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="fileContainer3 input-group">
+                                                                    <input type="button" name="d_archivo3" id="archivoInput_delete3" class="eliminarprueba me-3">
+                                                                    <i class="fa-solid fa-trash-can me-3 size-icon"></i>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="fileContainer3 input-group ">
+                                                                    <input type="button" name="v_archivo4" id="" onclick="visorExt3()" class=" me-3">
+                                                                    <i class="fa-solid fa-eye me-5 size-icon"></i></i>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="fileContainer3 input-group me-4">
+                                                                    <input type="button" name="p_archivo1" id="" class="ms-3">
+                                                                    <i class="fa-solid fa-arrow-rotate-right size-icon ms-3"></i>
+                                                                    <h6 class="font-size-visualizador text-center">proceso</h6>
+                                                                </div><div class="fileContainer3 d-none input-group me-4">
+                                                                    <input type="button" name="a_archivo1" id="" class="ms-3">
+                                                                    <i class="fa-solid fa-arrow-rotate-right size-icon ms-3"></i>
+                                                                    <h6 class="font-size-visualizador text-center">aprobado</h6>
+                                                                </div> <div class="fileContainer3 d-none input-group me-4">
+                                                                    <input type="button" name="a_archivo1" id="" class="ms-3">
+                                                                    <i class="fa-solid fa-xmark size-icon ms-3 text-center d-flex"></i>
+                                                                    <h6 class="font-size-visualizador text-center">rechazado</h6>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">4</th>
+                                                            <td colspan="2">Identificación oficial</td>
+                                                            <td>
+                                                                <div class="fileContainer2 input-group">
+                                                                    <input type="file" name="s_archivo" id="archivoInput4" class="me-5"
+                                                                           onchange="return validarExt4()">
+                                                                    <i class="fa-solid fa-file-arrow-up size-icon ms-3 "></i>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="fileContainer3 input-group">
+                                                                    <input type="button" name="d_archivo4" id="archivoInput_delete4" class="eliminarprueba me-3">
+                                                                    <i class="fa-solid fa-trash-can size-icon me-5"></i>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="fileContainer3 input-group">
+                                                                    <input type="button" name="v_archivo4" id="" onclick="visorExt4()" class=" me-3">
+                                                                    <i class="fa-solid fa-eye size-icon me-5"></i></i>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="fileContainer3 input-group me-4">
+                                                                    <input type="button" name="p_archivo1" id="" class="ms-3">
+                                                                    <i class="fa-solid fa-arrow-rotate-right size-icon ms-3"></i>
+                                                                    <h6 class="font-size-visualizador text-center">proceso</h6>
+                                                                </div><div class="fileContainer3 d-none input-group me-4">
+                                                                    <input type="button" name="a_archivo1" id="" class="ms-3">
+                                                                    <i class="fa-solid fa-arrow-rotate-right size-icon ms-3"></i>
+                                                                    <h6 class="font-size-visualizador text-center">aprobado</h6>
+                                                                </div> <div class="fileContainer3 d-none input-group me-4">
+                                                                    <input type="button" name="a_archivo1" id="" class="ms-3">
+                                                                    <i class="fa-solid fa-xmark size-icon ms-3 text-center d-flex"></i>
+                                                                    <h6 class="font-size-visualizador text-center">rechazado</h6>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                    </thead>
+                                                </table>
+                                            </div>
+                                            <div class="input-group d-flex justify-content-start">
+                                            </div>
+                                        </div>
+                                        <div class="col border">
+                                            <div class="input-group d-flex">
+                                                <div id="visorArchivo" class="size-file d-flex justify-content-end">
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wizard-footer">
+                            <div class="pull-right d-flex justify-content-between">
+                                <input type='button' class='btn btn-previous btn-fill btn-dark-blue  btn-wd' name='Regresar' value='Regresar' />
+                                <input type='button' class='btn btn-next btn-fill btn-warning  btn-wd' name='siguiente' value='Siguiente' />
+                                <input type='submit' class="btn btn-finish btn-fill btn-warning  btn-wd" name='finalizar' value='Finalizar' />
+                            </div>
+
+                            <div class="pull-right d-flex justify-content-end">
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- wizard container -->
+        </div>
+    </div><!-- fin del row -->
+</div>

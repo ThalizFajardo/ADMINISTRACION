@@ -1,0 +1,163 @@
+﻿@{
+    Layout = "_NavUsuarios";
+}
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/img/imagen-logo/logo_oficial.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/styles_edit_config_planes.css">
+
+
+
+    <script src="https://kit.fontawesome.com/e43b4d35fb.js" crossorigin="anonymous"></script>
+    <title>Usuarios</title>
+</head>
+
+
+
+ <br>
+<form action="#" class="form">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        
+      
+            <label for=""><h5>Configuración de planes</h5></label>
+            <div class="input-group justify-content-between  d-lg-inline-flex mt-2 mb-3">
+                <div class=" d-lg-inline-block col-lg-4 mt-lg-3 mt-ms-4 ms-5 ">
+                    <label for="t_propiedad" class="text-start fw-bold color_letter">Tipo de plan</label>
+                    <select class="border-labels rounded text-center mt-lg-2" aria-label="Default select example">            
+                      <option selected>Basic</option>
+                      <option value="1">Platinum</option>
+                      <option value="2">Ultimate</option>
+                    </select>
+    
+                  </div>
+              
+              <div class=" d-lg-inline-block mt-lg-2 mb-3 ps-1 ">
+                <label for="nombre" class="text-start mb-3 fw-bold color_letter size-text">Nombre</label>
+                <input type="text" name="nombre"  class="mt-lg-2" />
+              </div>
+              <div class=" d-lg-inline-block">
+                <label for="precio" class="text-start  fw-bold color_letter size-text">Precio</label>
+                <input type="text"  id="value1" readonly class="value_s mt-lg-2"> 
+              </div>
+            </div>
+            <div class="input-group justify-content-start  d-lg-inline-flex mt-2 mb-3">
+              <div class=" d-lg-inline-flex  mb-3 ps-1 ">
+                <label for="nombre" class="text-start  fw-bold color_letter size-text">¿Hasta cuántas propiedades?</label>
+                <input type="number" name="propiedades" class="" />
+              </div>
+            </div>
+            <hr>
+            <label for=""><h5>Caracteristicas</h5></label>
+            
+
+            
+            <div class="input-group d-lg-inline-flex justify-content-between mt-lg-3 align-content-between ">
+             
+             
+              
+                <div class="table-wrapper-scroll-y my-custom-scrollbar table-responsive col-12">
+                    <table class="table table-hover border">
+                      <thead>
+                        <tr>
+                            <th scope="col" class="text-center">Selecciona</th>
+                            <th scope="col" class="text-center">#</th>
+                            <th scope="col" class="text-center">Caracteristicas</th>
+                            <th scope="col" class="text-center">Principales</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-center"><input class="form-check-input mt-0 border-check" type="checkbox" value="" aria-label="Checkbox for following text input"></th>
+                                    <td class="text-center"> <input type="number" name="propiedades" min="0" class="size-input-table" /> </td>
+                                    <td class="text-center">Capacitación 25hrs</td>
+                                    <td class="text-center"><input class="form-check-input mt-0 border-check" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                        </tr> 
+                        <tr>
+                          <th scope="row" class="text-center"><input class="form-check-input mt-0 border-check" type="checkbox" value="" aria-label="Checkbox for following text input"></th>
+                                    <td colspan="1" class="text-center"><input type="number" name="propiedades" min="0" class="size-input-table" /></td>
+                          <td class="text-center">
+                            Asesoría legal de 5 propiedades
+                          </td>
+                                    <td class="text-center"><input class="form-check-input mt-0 border-check" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                         
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-center"><input class="form-check-input mt-0 border-check" type="checkbox" value="" aria-label="Checkbox for following text input"></th>
+                                    <td class="text-center"><input type="number" name="propiedades" min="0" class="size-input-table" /></td>
+                          <td class="text-center">Espacios disponibles para juntas</td>
+                          <td class="text-center"><input class="form-check-input mt-0 border-check" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-center"><input class="form-check-input mt-0 border-check" type="checkbox" value="" aria-label="Checkbox for following text input"></th>
+                                    <td class="text-center"><input type="number" name="propiedades" min="0" class="size-input-table" /></td>
+                          <td class="text-center">Atención de call center</td>
+                          <td class="text-center"><input class="form-check-input mt-0 border-check" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                        </tr>
+                        <tr>
+                                    <th scope="row" class="text-center"><input class="form-check-input mt-0 border-check" type="checkbox" value="" aria-label="Checkbox for following text input"></th>
+                                    <td class="text-center"><input type="number" min="0" name="propiedades" class="size-input-table" /></td>
+                            <td class="text-center">Publicidad, redes sociales, portales</td>
+                            <td class="text-center"><input class="form-check-input mt-0 border-check" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                          </tr>
+                          <tr>
+                            <th scope="row" class="text-center"><input class="form-check-input mt-0 border-check" type="checkbox" value="" aria-label="Checkbox for following text input"></th>
+                            <td class="text-center"><input type="number" name="propiedades" min="0" class="size-input-table" /></td>
+                            <td class="text-center">Seguimiento a clientes</td>
+                            <td class="text-center"><input class="form-check-input mt-0 border-check" type="checkbox" value="" aria-label="Checkbox for following text input"></td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+            </div>
+          
+          <br>
+          <br>
+              <div class="input-group d-lg-inline-flex justify-content-between mb-5 align-content-between">
+                <div class="">
+                  <label for="">Precio</label>
+                  <input type="number" name="precio" id="num" >
+                </div>
+                <div class="">
+                  <label for="">Promoción %</label>
+                  <input type="number" name="promocion" id="percent">
+                </div>
+                <div class="mt-lg-4">
+                  <input type="button"  onclick="percentage_1()" value="Aplicar" class="btn btn-orange border-bottom-0">
+                </div>
+                <div class="">
+                  <label for="">Inicio</label>
+                  <input type="date" name="" id="">
+                </div>
+                <div class=" me-2">
+                  <label for="">Termina</label>
+                  <input type="date" name="" id="">
+                </div>
+           
+                </div>
+              
+              <div class="justify-content-end d-flex">
+                <button type="submit" class=" btn btn-orange    ml-auto">Guardar</button>
+            </div>
+           
+         
+          </div>
+         
+              </div>
+    </div>
+       
+        </form>
+
+
+
+<script src="~/js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js></script>

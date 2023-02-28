@@ -1,0 +1,865 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\adminRummet.bundle.scp.css",
+      "PackagePath": "staticwebassets\\adminRummet.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\css\\material-bootstrap-wizard-2.css",
+      "PackagePath": "staticwebassets\\assets\\css\\material-bootstrap-wizard-2.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\css\\material-bootstrap-wizard.css",
+      "PackagePath": "staticwebassets\\assets\\css\\material-bootstrap-wizard.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\img\\BackgroundImage.png",
+      "PackagePath": "staticwebassets\\assets\\img\\BackgroundImage.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\img\\default-avatar.png",
+      "PackagePath": "staticwebassets\\assets\\img\\default-avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\js\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\js\\jquery.bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\js\\material-bootstrap-wizard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\material-bootstrap-wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_checkboxes.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_checkboxes.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_colors.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_colors.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_footers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_footers.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_inputs-size.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_inputs-size.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_inputs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_navs-pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_navs-pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_radios.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_radios.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_responsive.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_ripples.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_ripples.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_shadows.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_tooltips.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_variables_bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_variables_bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\_wizard-card.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\_wizard-card.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\mixins\\_inputs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\mixins\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\assets\\scss\\material-bootstrap-wizard\\mixins\\_vendor-prefixes.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\material-bootstrap-wizard\\mixins\\_vendor-prefixes.scss"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\Class.css",
+      "PackagePath": "staticwebassets\\css\\Class.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\StyleLeadBroker.css",
+      "PackagePath": "staticwebassets\\css\\StyleLeadBroker.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\StyleSheetMenuNav.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheetMenuNav.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\StyleSheetNavLateral.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheetNavLateral.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\Style_form.css",
+      "PackagePath": "staticwebassets\\css\\Style_form.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\glassDoor.css",
+      "PackagePath": "staticwebassets\\css\\glassDoor.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\styleDetallePropiedad.css",
+      "PackagePath": "staticwebassets\\css\\styleDetallePropiedad.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\styleGeneral.css",
+      "PackagePath": "staticwebassets\\css\\styleGeneral.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\style_form_nuevo_usuario.css",
+      "PackagePath": "staticwebassets\\css\\style_form_nuevo_usuario.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\style_nueva_propiedad.css",
+      "PackagePath": "staticwebassets\\css\\style_nueva_propiedad.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\style_tablero_brokers.css",
+      "PackagePath": "staticwebassets\\css\\style_tablero_brokers.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\style_tablero_propiedades.css",
+      "PackagePath": "staticwebassets\\css\\style_tablero_propiedades.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\style_usuarios.css",
+      "PackagePath": "staticwebassets\\css\\style_usuarios.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\styles-tablero-contact-center.css",
+      "PackagePath": "staticwebassets\\css\\styles-tablero-contact-center.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\css\\styles_edit_config_planes.css",
+      "PackagePath": "staticwebassets\\css\\styles_edit_config_planes.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\Gotham-Black.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-Black.otf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\Gotham-Bold.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-Bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\Gotham-BookItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-BookItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\Gotham-Light.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-Light.otf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\Gotham-Thin.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-Thin.otf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\Gotham-ThinItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-ThinItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\Gotham-UltraItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-UltraItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\Gotham-XLight.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-XLight.otf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\Gotham-XLightItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-XLightItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\GothamBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\GothamBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\GothamBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\GothamBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\GothamBook.ttf",
+      "PackagePath": "staticwebassets\\fonts\\GothamBook.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\GothamBookItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\GothamBookItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\GothamLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\GothamLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\GothamLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\GothamLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\GothamMedium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\GothamMedium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\GothamMediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\GothamMediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\fonts\\GothamMedium_1.ttf",
+      "PackagePath": "staticwebassets\\fonts\\GothamMedium_1.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\Imagen-de-usuario\\imagen-perfil-ejemplo.png",
+      "PackagePath": "staticwebassets\\img\\Imagen-de-usuario\\imagen-perfil-ejemplo.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\Imagen-de-usuario\\persona1.jpg",
+      "PackagePath": "staticwebassets\\img\\Imagen-de-usuario\\persona1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\Imagenes-pag-contacto\\Recurso-bolitas.png",
+      "PackagePath": "staticwebassets\\img\\Imagenes-pag-contacto\\Recurso-bolitas.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\Imagenes-pag-contacto\\Recurso-imagen-mensaje.png",
+      "PackagePath": "staticwebassets\\img\\Imagenes-pag-contacto\\Recurso-imagen-mensaje.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\Imagenes-pag-contacto\\Recurso-persona-1.png",
+      "PackagePath": "staticwebassets\\img\\Imagenes-pag-contacto\\Recurso-persona-1.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\Imagenes-pag-contacto\\recurso-persona-hablandoo.png",
+      "PackagePath": "staticwebassets\\img\\Imagenes-pag-contacto\\recurso-persona-hablandoo.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\Imagenes-tab-brockers\\Recurso.danilo.jpeg",
+      "PackagePath": "staticwebassets\\img\\Imagenes-tab-brockers\\Recurso.danilo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\Imagenes-tab-usuarios\\pug.jpeg",
+      "PackagePath": "staticwebassets\\img\\Imagenes-tab-usuarios\\pug.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPlanes\\Bronce.png",
+      "PackagePath": "staticwebassets\\img\\ImagenesPlanes\\Bronce.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPlanes\\Vector 1.png",
+      "PackagePath": "staticwebassets\\img\\ImagenesPlanes\\Vector 1.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPlanes\\Vector_bronce.png",
+      "PackagePath": "staticwebassets\\img\\ImagenesPlanes\\Vector_bronce.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPlanes\\Vector_platinum.png",
+      "PackagePath": "staticwebassets\\img\\ImagenesPlanes\\Vector_platinum.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPlanes\\oro.png",
+      "PackagePath": "staticwebassets\\img\\ImagenesPlanes\\oro.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPlanes\\plata.png",
+      "PackagePath": "staticwebassets\\img\\ImagenesPlanes\\plata.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-1.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-10.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-11.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-12.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-13.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-14.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-15.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-16.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-17.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-18.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-19.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-20.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-21.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-22.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-23.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-24.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-25.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-26.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-27.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-28.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-29.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-2jpg.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-2jpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-3.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-4.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-5.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-6.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-7.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-8.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\ImagenesPropiedades\\casa-m-prueba-9.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagenesPropiedades\\casa-m-prueba-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\image-form-usuario\\FondoEdicionUsuario.png",
+      "PackagePath": "staticwebassets\\img\\image-form-usuario\\FondoEdicionUsuario.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\image-form-usuario\\Recurso_usuario.png",
+      "PackagePath": "staticwebassets\\img\\image-form-usuario\\Recurso_usuario.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\image-form-usuario\\Untitled__3__page-0001__1_-removebg.png",
+      "PackagePath": "staticwebassets\\img\\image-form-usuario\\Untitled__3__page-0001__1_-removebg.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\image-form-usuario\\Untitled__4__page-0001__1_-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\image-form-usuario\\Untitled__4__page-0001__1_-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\image-form-usuario\\Untitled__5__page-0001-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\image-form-usuario\\Untitled__5__page-0001-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagen-logo\\logo_oficial.png",
+      "PackagePath": "staticwebassets\\img\\imagen-logo\\logo_oficial.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes-mesa-de-control\\enterate.png",
+      "PackagePath": "staticwebassets\\img\\imagenes-mesa-de-control\\enterate.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes-mesa-de-control\\enterate2.jpg",
+      "PackagePath": "staticwebassets\\img\\imagenes-mesa-de-control\\enterate2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes-mesa-de-control\\enterate3.jpg",
+      "PackagePath": "staticwebassets\\img\\imagenes-mesa-de-control\\enterate3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\Recurso 112.png",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\Recurso 112.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\Recurso 113.png",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\Recurso 113.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\Recurso 40.png",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\Recurso 40.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\Recurso 41.png",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\Recurso 41.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\Recurso 42.png",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\Recurso 42.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\Recurso 43.png",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\Recurso 43.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\Recurso 44.png",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\Recurso 44.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\Recurso 45.png",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\Recurso 45.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\Recurso 53.png",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\Recurso 53.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\Recurso49.png",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\Recurso49.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\local-real-demo.jpg",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\local-real-demo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\logo_oficial.ico",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\logo_oficial.ico"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\logo_oficial.png",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\logo_oficial.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\imagenes__e-commerce\\logo_oficial_blanco.png",
+      "PackagePath": "staticwebassets\\img\\imagenes__e-commerce\\logo_oficial_blanco.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\programar_propiedad\\apartir-de.png",
+      "PackagePath": "staticwebassets\\img\\programar_propiedad\\apartir-de.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\programar_propiedad\\boton-agregar.png",
+      "PackagePath": "staticwebassets\\img\\programar_propiedad\\boton-agregar.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\img\\programar_propiedad\\hasta-el.png",
+      "PackagePath": "staticwebassets\\img\\programar_propiedad\\hasta-el.png"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\PropiedadesTab.js",
+      "PackagePath": "staticwebassets\\js\\PropiedadesTab.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\ScriptSteps.js",
+      "PackagePath": "staticwebassets\\js\\ScriptSteps.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\effects.js",
+      "PackagePath": "staticwebassets\\js\\effects.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\googleMaps.js",
+      "PackagePath": "staticwebassets\\js\\googleMaps.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\guardarNuevaPropiedad.js",
+      "PackagePath": "staticwebassets\\js\\guardarNuevaPropiedad.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\hoverNavMenu.js",
+      "PackagePath": "staticwebassets\\js\\hoverNavMenu.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\invoice.js",
+      "PackagePath": "staticwebassets\\js\\invoice.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\locales-all.js",
+      "PackagePath": "staticwebassets\\js\\locales-all.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\script-step.js",
+      "PackagePath": "staticwebassets\\js\\script-step.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\script-visualizadores.js",
+      "PackagePath": "staticwebassets\\js\\script-visualizadores.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lbolanos\\Desktop\\PROYECTO DE PAOLO 21FEB\\adminRummet-main\\adminRummet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.adminRummet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.adminRummet.props",
+      "PackagePath": "build\\adminRummet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.adminRummet.props",
+      "PackagePath": "buildMultiTargeting\\adminRummet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.adminRummet.props",
+      "PackagePath": "buildTransitive\\adminRummet.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,852 @@
+﻿
+@{
+    Layout = "_NavUsuarios";
+}
+
+<!--Indicadores -->
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Proyecto_administracion</title>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="~/img/imagen-logo/logo_oficial.png">
+    <link rel="stylesheet" href="~/css/styleGeneral.css" />
+
+    <link rel="stylesheet" href="~/css/style_tablero_brokers.css">
+    <script src="https://kit.fontawesome.com/e43b4d35fb.js" crossorigin="anonymous"></script>
+</head>
+
+<div class="container-lg ">
+    <div class="row">
+        <div class="col">
+            <button type="button" class="border-0 d-flex mx-auto">
+                <div class="caja-a-b mb-2 mb-xl-0  ">
+                    <div class="card-main col-12 d-flex align-items-center">
+                        <div class="col-6 mt-2 d-flex justify-content-center">
+
+
+                            <div class="d-flex mt-1">
+                                <i class="fa-solid fa-user-check fa-2x" style="color: #18CB2A; font-size: 37px;"></i>
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <div class="text-cards d-flex mt-2 indicator-active">
+                                <h6 class="mx-auto text-white my-auto size-number-indicator">100</h6>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="">
+                        <div class=" d-flex justify-content-center">
+                            <p class="size-letter-cards-first ms-2 mt-2">Activos</p>
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </div>
+        <div class="col">
+            <button type="button" class="border-0 d-flex mx-auto">
+                <div class="caja-a-b mb-xl-0 ">
+                    <div class="card-main col-12 d-flex align-items-center">
+                        <div class="col-6 mt-2 justify-content-center d-flex">
+
+
+                            <div class="d-flex mt-1">
+                                <i class="fa-solid fa-user-large " style="color:rgb(129, 129, 129); font-size: 37px;"></i>
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <div class="text-cards d-flex mt-2  indicator-inactive">
+                                <h6 class="mx-auto text-white my-auto size-number-indicator ">10,000</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class=" d-flex justify-content-center">
+                            <p class="size-letter-cards-first ms-2 mt-1">Inactivos</p>
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </div>
+        <div class="col">
+            <button type="button" class="border-0 d-flex mx-auto">
+                <div class="caja-a-b mx-auto mb-2 mb-xl-0">
+                    <div class="card-main col-12 d-flex align-items-center">
+                        <div class="col-6 mt-1 justify-content-center d-flex ">
+
+
+                            <div class="d-flex mt-1">
+                                <i class="fa-solid fa-user-xmark fa-2x" style="color: rgb(255, 0, 0); font-size: 37px;"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center col-6">
+                            <div class="text-cards d-flex mt-2 indicator-cancel">
+                                <h6 class="mx-auto text-white my-auto size-number-indicator">30</h6>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col">
+                        <div class=" d-flex justify-content-center">
+                            <p class="size-letter-cards-first mt-1">Cancelados</p>
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </div>
+        <div class="col">
+            <button type="button" class="border-0 d-flex mx-auto">
+                <div class="caja-a-b mx-auto mb-2 mb-xl-0">
+                    <div class="card-main col-12 d-flex align-items-center">
+                        <div class="col-6 mt-3 justify-content-center d-flex">
+
+
+                            <div class="d-flex  ">
+                                <i class="fa-solid fa-user-slash fa-2x" style="font-size: 37px"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center col-6">
+                            <div class="text-cards d-flex mt-2 indicator-block">
+                                <h6 class="mx-auto text-white my-auto size-number-indicator">5</h6>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col">
+                        <div class=" d-flex d-block justify-content-center">
+                            <p class="size-letter-cards-first ms-2 mt-1">Bloqueados</p>
+                        </div>
+                    </div>
+                </div>
+            </button>
+        </div>
+
+    </div>
+</div>
+<!--Final de indicadores-->
+
+
+
+<form>
+    <div class="container-lg pt-3 pb-3">
+        <div class="row">
+            <div class="col col-lg-12 col-md-4 col-sm-1 d-flex justify-content-start ">
+
+                <div class="mb-2 text-primary backgr-search d-lg-inline-flex mt-3">
+
+                    <div class="d-flex">
+                        <input class="form-control size-search d-inline-flex shadow " type="search" placeholder="Buscar" aria-label="Search">
+                        <button title="buscar" class=" parar_reparar_un_estupido_bug_con_los_botones btn btn-outline text-light ms-1 d-inline-flex shadow backgr_orange" type="submit">
+                            <i class="fa-solid fa-magnifying-glass mt-1"></i>
+                        </button>
+                    </div>
+
+                    <div class="d-flex mt-md-3 mt-sm-3 mt-lg-0">
+                        <select class="form-select size-select d-inline-flex  ms-lg-1 "
+                                aria-label="Default select example">
+                            <option disabled selected>Filtros</option>
+                            <option value="1">Zonas</option>
+                            <option value="2">Antigüedad</option>
+                        </select>
+
+                        <div class=" d-sm-flex">
+                            <button title="descargar datos en excel" class=" parar_reparar_un_estupido_bug_con_los_botones btn btn-outline text-light backgr_orange ms-lg-1 shadow" type="submit">
+                                <i class="fa-solid fa-1x fa-file-excel mt-1"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+    
+
+
+                
+    <!--Contenedor principal donde se en encuentras las tarjetas y la tabla-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <!--Botones de visualización para ver las tarjetas o la tabla-->
+            <div class="tab ms-5 rounded">
+                <button class="tablinks" onclick="openCity(event, 'Tarjetas')" id="defaultOpen"><svg class="size-icons-table" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"></path></svg></button>
+                <button class="tablinks" onclick="openCity(event, 'Tabla')"><i class="fa-solid fa-table mt-1" style="font-size:20px; color: rgb(71, 71, 71);"></i></button>
+              </div>
+
+
+              <!--Aqui termina los botones de visualización-->
+              <div id="Tarjetas" class="tabcontent">
+                
+              
+                        <div class="container-fluid ">
+                            <div class="row  mt-2 mb-5 ">
+                                
+                                <div class="col-lg-3 col  mb-3 ">
+                                   
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-bold">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-green size-letter-card-t">
+                                                <p>Activo</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-user me-2"></i>Danilo sarrelangue </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone me-2"></i>5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope me-2"></i>danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot me-2"></i>CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a class=" btn-vermas" asp-controller="Administracion" asp-action="EdicionUsuarioBroker"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col">
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light  ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-green size-letter-card-t">
+                                                <p>Activo</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user me-2"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone me-2"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope me-2"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot me-2"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a href="#"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col">
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light  ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-green size-letter-card-t">
+                                                <p>Activo</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a class=" btn-vermas" asp-controller="Administracion" asp-action="EdicionUsuarioBroker"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col">
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light  ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-green size-letter-card-t">
+                                                <p>Activo</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a class=" btn-vermas" asp-controller="Administracion" asp-action="EdicionUsuarioBroker"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                     
+                
+                
+                
+                                <div class="col-lg-3 col mb-3">
+                                
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-gray size-letter-card-t">
+                                                <p>Inactivo</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user color-icons-cards"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone color-icons-cards"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope color-icons-cards"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot color-icons-cards"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a class=" btn-vermas" asp-controller="Administracion" asp-action="EdicionUsuarioBroker"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col">
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light  ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-gray size-letter-card-t">
+                                                <p>Inactivo</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a href="#"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col">
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light  ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-gray size-letter-card-t">
+                                                <p>Inactivo</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a href="#"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col">
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light  ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-gray size-letter-card-t">
+                                                <p>Inactivo</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a href="#"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                
+                                <div class="col-lg-3 mb-3 col">
+                                    
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-red size-letter-card-t">
+                                                <p>Cancelado</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a href="#"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col">
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light  ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-red size-letter-card-t">
+                                                <p>Cancelado</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a href="#"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col">
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light  ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-red size-letter-card-t">
+                                                <p>Cancelado</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a href="#"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col">
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-red size-letter-card-t">
+                                                <p>Cancelado</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a href="#"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                               
+                
+                
+                                <div class="col-lg-3 col mb-3">
+                                   
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-black size-letter-card-t">
+                                                <p>Bloqueado</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a href="#"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col">
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light  ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-black size-letter-card-t">
+                                                <p>Bloqueado</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a href="#"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col">
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light  ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-black size-letter-card-t">
+                                                <p>Bloqueado</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a href="#"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col">
+                                    <div class="caja-a-b-t mx-auto mb-2 mb-xl-0 fw-light  ">
+
+                                        <div class="card-center-1  d-flex justify-content-end">
+                
+                
+                                            <div class="title-cards-b-t back-indicator-black size-letter-card-t">
+                                                <p>Bloqueado</p>
+                                            </div>
+                
+                                        </div>
+                
+                                        <div class="card-main col-12  d-flex mt-1 color-letter-cards align-items-center">
+                                            <div class="col-3">
+                                                <img src="~/img/Imagenes-tab-brockers/Recurso.danilo.jpeg" alt="" class="img-size-t d-flex mx-auto ">
+                                            </div>
+                                            <div class="col-9 text-cards ">
+                                                <div class=" size-letter-card-t color-icons-cards">
+                                                    <h6 class="size-letter-card-t fw-light"> <i class="fa-solid fa-user"></i> Danilo sarrelange </h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-phone"></i> 5567793849</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-envelope"></i> danilo.sarrelange@cvo.mx</h6>
+                                                    <h6 class="size-letter-card-t fw-light"><i class="fa-solid fa-map-location-dot"></i>  CDMX,EdoMex,Sonora</h6>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative">
+                                        <a href="#"><ion-icon name="ellipsis-horizontal-circle-outline" class="position-absolute position-icon btn-vermas"></ion-icon></a>
+                                    </div>
+                                        </div>
+                                    </div>
+                            
+                                </div>
+
+                        <div>
+                            <nav aria-label="" class="mt-4">
+                                <ul class="pagination justify-content-lg-center justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a class="page-link me-1" href="#" tabindex="-1" aria-disabled="true">Regresar</a>
+                                    </li>
+                                    <li class="page-item active me-1" aria-current="page"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item me-1">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    <li class="page-item me-1"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Siguiente</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        
+                
+                
+                            </div>
+                        </div>
+                    
+              </div>
+              
+              <div id="Tabla" class="tabcontent">
+                <div class="table-wrapper-scroll-y my-custom-scrollbar table-responsive mt-2 bg-light rounded table-bordered shadow">
+                    <table class="table table-hover ">
+                        <thead class="backgr-gray-head">
+                          <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">A.paterno</th>
+                        <th scope="col">A.materno</th>
+                        <th scope="col" class="text-center">Teléfono</th>
+                        <th scope="col" class="text-center">Correo</th>
+                        <th scope="col">Antigüedad</th>
+                        <th scope="col">Estatus</th>
+                        <th scope="col">Acciones</th>
+                            </tr>
+                        </thead>   
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Danilo</td>
+                          <td>Sarrelange</td>
+                          <td>Sarrelange</td>
+                          <td class="text-center">5567793849</td>
+                          <td class="text-center">danilo12345_s@live.com</td>
+                          <td class="text-center">2 años</td>
+                          <td class="text-center"><p class="bg-status-green">Activo</p></td>
+                          <td>
+                            <div class=" d-flex justify-content-between ">
+                                  <a href="#" class="style-vermas2"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon mt-2"></ion-icon></a>
+                                  <button class="border-0 bg-transparent"><i class="fa-solid fa-pen-to-square style-vermas2"></i></button>
+                                        <button class="border-0 bg-transparent"><i class="fa-solid fa-trash-can style-vermas2"></i></button>
+                                    </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Danilo</td>
+                          <td>Sarrelange</td>
+                          <td>Sarrelange</td>
+                          <td class="text-center">5567793849</td>
+                          <td class="text-center">danilo12345_s@live.com</td>
+                          <td class="text-center">2 años</td>
+                          <td class="text-center"> <p class="bg-status-black">Bloqueado</p></td>
+                          <td>
+                            <div class=" d-flex justify-content-between">
+                                  <a href="#" class="btn-vermas"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon mt-2 style-vermas2"></ion-icon></a>
+                                 <button class="border-0 bg-transparent"><i class="fa-solid fa-pen-to-square style-vermas2"></i></button>
+                                        <button class="border-0 bg-transparent"><i class="fa-solid fa-trash-can style-vermas2"></i></button>
+                                    </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Danilo</td>
+                          <td>Sarrelange</td>
+                          <td>Sarrelange</td>
+                          <td class="text-center">5567793849</td>
+                          <td class="text-center">danilo12345_s@live.com</td>
+                          <td class="text-center">2 años</td>
+                          <td class="text-center"><p class="bg-status-grey">Inactivo</p></td>
+                          <td>
+                            <div class=" d-flex justify-content-between">
+                                        <a href="#" class="btn-vermas"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon mt-2 style-vermas2"></ion-icon></a>
+                                 <button class="border-0 bg-transparent"><i class="fa-solid fa-pen-to-square style-vermas2"></i></button>
+                                        <button class="border-0 bg-transparent"><i class="fa-solid fa-trash-can style-vermas2"></i></button>
+                                    </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>Danilo</td>
+                          <td>Sarrelange</td>
+                          <td>Sarrelange</td>
+                          <td class="text-center">5567793849</td>
+                          <td class="text-center">danilo12345_s@live.com</td>
+                          <td class="text-center">2 años</td>
+                          <td class="text-center"><p class="bg-status-red">Cancelado</p></td>
+                          <td>
+                            <div class=" d-flex justify-content-between">
+                                        <a href="#" class="btn-vermas"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon mt-2 style-vermas2"></ion-icon></a>
+                                        <button class="border-0 bg-transparent"><i class="fa-solid fa-pen-to-square style-vermas2"></i></button>
+                                        <button class="border-0 bg-transparent"><i class="fa-solid fa-trash-can style-vermas2"></i></button>
+                                    </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                <nav aria-label="" class="mt-4">
+                    <ul class="pagination justify-content-lg-center justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link me-1" href="#" tabindex="-1" aria-disabled="true">Regresar</a>
+                        </li>
+                        <li class="page-item active me-1" aria-current="page"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item me-1">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item me-1"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Siguiente</a>
+                        </li>
+                    </ul>
+                </nav>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+
+
+<!--Scripts-->
+<script>
+    // Script para tab de tablero de brokers
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+<script src="~/js/script.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

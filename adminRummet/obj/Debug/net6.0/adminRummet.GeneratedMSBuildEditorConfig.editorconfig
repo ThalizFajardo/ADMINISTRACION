@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = adminRummet
+build_property.RootNamespace = adminRummet
+build_property.ProjectDir = C:\Users\lbolanos\Desktop\PROYECTO DE PAOLO 21FEB\adminRummet-main\adminRummet\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\lbolanos\Desktop\PROYECTO DE PAOLO 21FEB\adminRummet-main\adminRummet
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/Brokers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cQnJva2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/DatosPropietario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cRGF0b3NQcm9waWV0YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/DetallesPropiedadNoPublicadaPropietario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cRGV0YWxsZXNQcm9waWVkYWROb1B1YmxpY2FkYVByb3BpZXRhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/DetallesPropiedadProcesoPropietario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cRGV0YWxsZXNQcm9waWVkYWRQcm9jZXNvUHJvcGlldGFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/DetallesPropiedadPublicadaPropietario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cRGV0YWxsZXNQcm9waWVkYWRQdWJsaWNhZGFQcm9waWV0YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/EdicionUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cRWRpY2lvblVzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/EdicionUsuarioBroker.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cRWRpY2lvblVzdWFyaW9Ccm9rZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/EdicionUsuarioM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cRWRpY2lvblVzdWFyaW9NLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/EdicionUsuarioMBroker.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cRWRpY2lvblVzdWFyaW9NQnJva2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/EditConfigPlanes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cRWRpdENvbmZpZ1BsYW5lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/LeadBrokerTab.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cTGVhZEJyb2tlclRhYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/NuevoUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cTnVldm9Vc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/Propietario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cUHJvcGlldGFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/TabContactCenter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cVGFiQ29udGFjdENlbnRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/TableroBroker.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cVGFibGVyb0Jyb2tlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/TabMesaControl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cVGFiTWVzYUNvbnRyb2wuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Administracion/UsuariosTab.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNpb25cVXN1YXJpb3NUYWIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Propiedades/DetallesHead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGllZGFkZXNcRGV0YWxsZXNIZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Propiedades/DetallesPropiedad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGllZGFkZXNcRGV0YWxsZXNQcm9waWVkYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Propiedades/DetallesPropiedadNP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGllZGFkZXNcRGV0YWxsZXNQcm9waWVkYWROUC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Propiedades/DetallesPropiedadPP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGllZGFkZXNcRGV0YWxsZXNQcm9waWVkYWRQUC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Propiedades/EditarPropiedad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGllZGFkZXNcRWRpdGFyUHJvcGllZGFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Propiedades/NuevaPropiedad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGllZGFkZXNcTnVldmFQcm9waWVkYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Propiedades/PropiedadesTab.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGllZGFkZXNcUHJvcGllZGFkZXNUYWIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Propiedades/_DetallesPancita.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGllZGFkZXNcX0RldGFsbGVzUGFuY2l0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Shared/_NavDetallesPropiedad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZEZXRhbGxlc1Byb3BpZWRhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Shared/_NavEditConfigPlanes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZFZGl0Q29uZmlnUGxhbmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Shared/_NavFormNuevoUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZGb3JtTnVldm9Vc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Shared/_NavMbd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZNYmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Shared/_NavMesaControl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZNZXNhQ29udHJvbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Shared/_NavOnlyWizard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZPbmx5V2l6YXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Shared/_NavUsuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZVc3Vhcmlvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lbolanos/Desktop/PROYECTO DE PAOLO 21FEB/adminRummet-main/adminRummet/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-o7kmu2eipy

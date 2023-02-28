@@ -1,0 +1,461 @@
+﻿@{
+    Layout = "_NavMesaControl";
+}
+<section class="mt-5">
+    <div class="row">
+      <div class="col-12">
+        <div class="message-user">
+                <div class="name-user">Bienvenid&#64; Alexandra</div>
+          <div class="message-default">
+            Es un gusto tenerte de vuelta, aquí tienes un resumen...
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-12 col-lg-12 col-xl-8 bg-gray-default">
+        <div class="btn-option-cc">
+          <div class="message-btn-option-cc">
+            <h5>¿Qué deseas hacer?</h5>
+          </div>
+         
+          <div class="btn-option-cards-cc mt-2 ">
+            <div class="col-4 option-card-cc bg-card-1-cc" id="btnOnboarding">
+              <div class="card-notification-cc">1 NUEVOS</div>
+              <div class="title">On boarding broker</div>
+            </div>
+            <div class="col-4 option-card-cc bg-card-2-cc" id="btnVenta">
+              <div class="card-notification-cc">1 NUEVOS</div>
+              <div class="title">Venta</div>
+            </div>
+            <div class="col-4 option-card-cc bg-card-3-cc" id="btnEntrega">
+              <div class="card-notification-cc">1 NUEVOS</div>
+              <div class="title">Entrega</div>
+            </div>
+            <div class="col-4 option-card-cc bg-card-4-cc  " id="btnPostventa">
+              <div class="card-notification-cc">1 NUEVOS</div>
+              <div class="title">Post Venta</div>
+            </div>
+          </div>
+        </div>
+        <div class="data-table active border" id="tblOnboarding">
+          <div class="message-btn-option">
+            Leads nuevos:
+            <p>&nbsp 5</p>
+          </div>
+          <br />
+          <!-- <div class="message-default">
+                    Aquí viven los leads que se encuentran en una etapa de seguimiento.
+                </div> -->
+                <div class="table-wrapper-scroll-y my-custom-scrollbar table-responsive mt-2 ">
+                    <table class="table table-hover">
+            <tr>
+              <th style="border-radius: 5px 0px 0px 0px">Fecha</th>
+              <th>Tipo de Lead</th>
+              <th>Plan</th>
+              <th>Nombre</th>
+              <th>Correo</th>
+              <th>Teléfono</th>
+              <th>Estatus</th>
+              <th style="border-radius: 0px 5px 0px 0px">Acciones</th>
+            </tr>
+            <tr>
+              <td>03/10/2022</td>
+              <td>Plan elegido</td>
+              <td>Básico</td>
+              <td>Paola Sánchez</td>
+              <td>paola.1@gmail.com</td>
+              <td>5533553355</td>
+              <td>
+                <p class="bg-status-pink">Informes</p>
+              </td>
+                            <td><a class=" btn-vermas" asp-controller="Administracion" asp-action="LeadBrokerTab"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+            <tr>
+              <td>04/10/2022</td>
+              <td>Solicita Informes</td>
+              <td> - </td>
+              <td>Erika Nuñez</td>
+              <td>erika.2@gmail.com</td>
+              <td>5533553355</td>
+              <td>
+                <p class="bg-status-pink">Informes</p>
+              </td>
+                            <td><a class=" btn-vermas" asp-controller="Administracion" asp-action="LeadBrokerTab"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+            <tr>
+              <td>05/10/2022</td>
+              <td>Plan elegido</td>
+              <td>Premium</td>
+              <td>Erika Ramírez</td>
+              <td>erika.3@gmail.com</td>
+              <td>5533553355</td>
+              <td>
+                <p class="bg-status-yellow">Suscripción en proceso</p>
+              </td>
+                            <td><a class=" btn-vermas" asp-controller="Administracion" asp-action="LeadBrokerTab"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+            <tr>
+              <td>06/10/2022</td>
+              <td>Plan elegido</td>
+              <td>Ultimate</td>
+              <td>Shantal Iniestra</td>
+              <td>shantal.4@gmail.com</td>
+              <td>5533553355</td>
+              <td>
+                                <p class="bg-status-blue-sus-no">Suscripción no completada</p>
+              </td>
+                            <td><a class=" btn-vermas" asp-controller="Administracion" asp-action="LeadBrokerTab"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+          </table>
+        </div>
+          <div class="view-all mt-3">
+                    <nav aria-label="" class="mt-4">
+                        <ul class="pagination justify-content-lg-center justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link me-1" href="#" tabindex="-1" aria-disabled="true">Regresar</a>
+                            </li>
+                            <li class="page-item active me-1" aria-current="page"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item me-1">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item me-1"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Siguiente</a>
+                            </li>
+                        </ul>
+                    </nav>
+          </div>
+        </div>
+        <div class="data-table" id="tblVenta">
+          <div class="message-btn-option">
+            Venta nuevos:
+            <p>&nbsp; 5</p>
+          </div>
+          <br />
+          <!-- <div class="message-default">
+                    Aquí viven los leads que se encuentran en una etapa de seguimiento.
+                </div> -->
+                <div class="table-wrapper-scroll-y my-custom-scrollbar table-responsive mt-2 " >
+                    <table class="table table-hover">
+            <tr>
+              <th style="border-radius: 5px 0px 0px 0px">Fecha</th>
+              <th>Nombre</th>
+              <th>Correo</th>
+              <th>Teléfono</th>
+              <th>Propiedad</th>
+              <th>Bróker</th>
+              <th>Visita</th>
+              <th>Estatus</th>
+              <th style="border-radius: 0px 5px 0px 0px">Acciones</th>
+            </tr>
+            <tr>
+              <td>03/10/2022</td>
+              <td>Paola Sánchez</td>
+              <td>paola.1@gmail.com</td>
+              <td>5533553355</td>
+              <td>Real del encanto</td>
+              <td>Héctor Guajardo</td>
+              <td> - </td>
+              <td>
+                <p class="bg-status-pink">Informes</p>
+              </td>
+              <td><a href="#" class="btn-vermas"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+            <tr>
+              <td>03/10/2022</td>
+              <td>Paola Sánchez</td>
+              <td>paola.1@gmail.com</td>
+              <td>5533553355</td>
+              <td>Real del encanto</td>
+              <td>Héctor Guajardo</td>
+              <td> - </td>
+              <td>
+                <p class="bg-status-pink">Informes</p>
+              </td>
+              <td><a href="#" class="btn-vermas"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+            <tr>
+              <td>03/10/2022</td>
+              <td>Paola Sánchez</td>
+              <td>paola.1@gmail.com</td>
+              <td>5533553355</td>
+              <td>Real del encanto</td>
+              <td>Héctor Guajardo</td>
+              <td> - </td>
+              <td>
+                <p class="bg-status-pink">Informes</p>
+              </td>
+              <td><a href="#" class="btn-vermas"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+
+          </table>
+        </div>
+
+          <div class="view-all mt-3">
+                    <nav aria-label="" class="mt-4">
+                        <ul class="pagination justify-content-lg-center justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link me-1" href="#" tabindex="-1" aria-disabled="true">Regresar</a>
+                            </li>
+                            <li class="page-item active me-1" aria-current="page"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item me-1">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item me-1"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Siguiente</a>
+                            </li>
+                        </ul>
+                    </nav>
+          </div>
+        </div>
+        <div class="data-table" id="tblEntrega">
+          <div class="message-btn-option">
+            Entrega nuevos:
+            <p>&nbsp; 5</p>
+          </div>
+          <br />
+          <!-- <div class="message-default">
+                    Aquí viven los leads que se encuentran en una etapa de seguimiento.
+                </div> -->
+                <div class="table-wrapper-scroll-y my-custom-scrollbar table-responsive mt-2" >
+                    <table class="table table-hover">
+            <tr>
+              <th style="border-radius: 5px 0px 0px 0px">Fecha</th>
+              <th>Nombre</th>
+              <th>Correo</th>
+              <th>Teléfono</th>
+              <th>Propiedad</th>
+              <th>Bróker</th>
+              <th>Visita</th>
+              <th>Estatus</th>
+              <th style="border-radius: 0px 5px 0px 0px">Acciones</th>
+            </tr>
+            <tr>
+              <td>03/10/2022</td>
+              <td>Paola Sánchez</td>
+              <td>paola.1@gmail.com</td>
+              <td>5533553355</td>
+              <td>Real del encanto</td>
+              <td>Héctor Guajardo</td>
+              <td> - </td>
+              <td>
+                <p class="bg-status-pink">Informes</p>
+              </td>
+              <td><a href="#" class="btn-vermas"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+            <tr>
+              <td>03/10/2022</td>
+              <td>Paola Sánchez</td>
+              <td>paola.1@gmail.com</td>
+              <td>5533553355</td>
+              <td>Real del encanto</td>
+              <td>Héctor Guajardo</td>
+              <td> - </td>
+              <td>
+                <p class="bg-status-pink">Informes</p>
+              </td>
+              <td><a href="#" class="btn-vermas"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+            <tr>
+              <td>03/10/2022</td>
+              <td>Paola Sánchez</td>
+              <td>paola.1@gmail.com</td>
+              <td>5533553355</td>
+              <td>Real del encanto</td>
+              <td>Héctor Guajardo</td>
+              <td> - </td>
+              <td>
+                <p class="bg-status-pink">Informes</p>
+              </td>
+              <td><a href="#" class="btn-vermas"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+
+          </table>
+        </div>
+          <div class="view-all mt-3">
+                    <nav aria-label="" class="mt-4">
+                        <ul class="pagination justify-content-lg-center justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link me-1" href="#" tabindex="-1" aria-disabled="true">Regresar</a>
+                            </li>
+                            <li class="page-item active me-1" aria-current="page"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item me-1">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item me-1"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Siguiente</a>
+                            </li>
+                        </ul>
+                    </nav>
+          </div>
+        </div>
+        <div class="data-table" id="tblPostventa">
+          <div class="message-btn-option">
+            Post Venta nuevos:
+            <p>&nbsp; 5</p>
+          </div>
+          <br />
+          <!-- <div class="message-default">
+                    Aquí viven los leads que se encuentran en una etapa de seguimiento.
+                </div> -->
+                <div class=" table-responsive mt-2" >
+                    <table class="table table-hover">
+            <tr>
+              <th style="border-radius: 5px 0px 0px 0px">Fecha</th>
+              <th>Nombre</th>
+              <th>Correo</th>
+              <th>Teléfono</th>
+              <th>Propiedad</th>
+              <th>Bróker</th>
+              <th>Visita</th>
+              <th>Estatus</th>
+              <th style="border-radius: 0px 5px 0px 0px">Acciones</th>
+            </tr>
+            <tr>
+              <td>03/10/2022</td>
+              <td>Paola Sánchez</td>
+              <td>paola.1@gmail.com</td>
+              <td>5533553355</td>
+              <td>Real del encanto</td>
+              <td>Héctor Guajardo</td>
+              <td> - </td>
+              <td>
+                <p class="bg-status-pink">Informes</p>
+              </td>
+              <td><a href="#" class="btn-vermas"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+            <tr>
+              <td>03/10/2022</td>
+              <td>Paola Sánchez</td>
+              <td>paola.1@gmail.com</td>
+              <td>5533553355</td>
+              <td>Real del encanto</td>
+              <td>Héctor Guajardo</td>
+              <td> - </td>
+              <td>
+                <p class="bg-status-pink">Informes</p>
+              </td>
+              <td><a href="#" class="btn-vermas"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+            <tr>
+              <td>03/10/2022</td>
+              <td>Paola Sánchez</td>
+              <td>paola.1@gmail.com</td>
+              <td>5533553355</td>
+              <td>Real del encanto</td>
+              <td>Héctor Guajardo</td>
+              <td> - </td>
+              <td>
+                <p class="bg-status-pink">Informes</p>
+              </td>
+              <td><a href="#" class="btn-vermas"><ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon"></ion-icon></a></td>
+            </tr>
+
+          </table>
+        </div>
+          <div class="view-all mt-3">
+                    <nav aria-label="" class="mt-4">
+                        <ul class="pagination justify-content-lg-center justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link me-1" href="#" tabindex="-1" aria-disabled="true">Regresar</a>
+                            </li>
+                            <li class="page-item active me-1" aria-current="page"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item me-1">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item me-1"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Siguiente</a>
+                            </li>
+                        </ul>
+                    </nav>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-12 col-lg-12 col-xl-4 bg-gray-default ">
+        <div class="more-options d-cards ">
+          <div class="col-3 col-md-4 col-lg-4 col-xl-12">
+                    <div class="calendar">
+             <div class="calendarioo" id="calendar"></div>
+            </div>
+          </div>
+          <div class="col col-md-4 col-lg-4 col-xl-12 ">
+            <div class="activities">
+              <div class="title-activities">Actividades para hoy</div>
+              <div class="content-activities">
+                <div class="list-activities bg-activity-2">
+                  <div class="col-8 info-general">
+                    <div class="title-activity">
+                      Cliente: Alexandra Vega
+                    </div>
+                    <div class="client-activity">Estatus: Prioridad</div>
+                  </div>
+                  <div class="col-4 info-time">
+                    <div class="type-activitie">Informes</div>
+                    <div class="hour-activitie">9:00</div>
+                  </div>
+                </div>
+                <div class="list-activities bg-activity-2">
+                  <div class="col-8 info-general">
+                    <div class="title-activity">
+                      Cliente: Judith Cortéz 
+                    </div>
+                    <div class="client-activity">Estatus: Prioridad</div>
+                  </div>
+                  <div class="col-4 info-time">
+                    <div class="type-activitie">Enviar link de pago</div>
+                    <div class="hour-activitie">10:30</div>
+                  </div>
+                </div>
+                <div class="list-activities bg-activity-3">
+                  <div class="col-8 info-general">
+                    <div class="title-activity">
+                      Cliente: Luis Aguila 
+                    </div>
+                    <div class="client-activity">Estatus: Pendiente</div>
+                  </div>
+                  <div class="col-4 info-time">
+                    <div class="type-activity">Visitas</div>
+                    <div class="hour-activity">11:00</div>
+                  </div>
+                </div>
+                <div class="view-all mt-1">
+                 
+                </div>
+              </div>
+            </div>
+            </div>
+          <div class="col col-md-4 col-lg-4 col-xl-12">
+            <div class="enterate">
+              <div class="title-enterate">Entérate</div>
+              <div class="img-enterate">
+                            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="~/img/imagenes-mesa-de-control/enterate.png" alt="" class="img-fluid d-block w-100" />
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/img/imagenes-mesa-de-control/enterate2.jpg" alt="" class="img-fluid d-block w-100" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/img/imagenes-mesa-de-control/enterate3.jpg" alt="" class="img-fluid d-block w-100" />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

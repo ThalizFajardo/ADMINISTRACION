@@ -1,0 +1,255 @@
+﻿
+
+<div class="container mb-4"> 
+      <div class="row">
+        <div class="col shadow rounded mt-4 bg-white">
+          <div id="progress" >
+            <div id="progress-bar" class="d-flex"></div>
+            <ul id="progress-num">
+              <li class="step active d-flex justify-content-center"><i class="fa-solid fa-check mt-1"><h6 class="mt-2 font-size-progressbar">Registro e información</h6></i></li>
+              <li class="step d-flex justify-content-center"><i class="fa-solid fa-check mt-1"><h6 class="font-size-progressbar mt-2 ">Informes entregados</h6></i></li>
+              <li class="step d-flex justify-content-center"><i class="fa-solid fa-check mt-1"><h6 class="font-size-progressbar mt-2  title-text-progressbar">Links de pago, usuario y contraseña enviado</h6></i></li>
+              <li class="step d-flex justify-content-center"><i class="fa-solid fa-check mt-1"><h6 class="font-size-progressbar mt-2">Pago</h6></i></li>
+            </ul>
+          </div>
+         
+        </div>
+      </div>
+     </div>
+
+<!--Contenedor principal-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-lg-6 ms-3 mt-3">
+            
+            <div class="cardLead shadow bg-light mb-3">
+                <h6 class="p-2">Datos Lead</h6>
+                <div class="cardmain ms-5">
+                    <div class="mb-2  d-flex">
+                        <i class="fa-solid fa-user me-2  mt-3 size-icons-dash"></i>
+                        <input type="text" name="" disabled id="" class="size-input-text align-items-end backgr-disabled"
+                               placeholder="">
+                    </div>
+                    <div class="mb-1 d-flex">
+                        <i class="fa-solid fa-phone me-2 mt-3 size-icons-dash"></i>
+                        <input type="text" name="" id="" disabled class="size-input-text backgr-disabled"
+                               placeholder="">
+                    </div>
+                    <div class="d-flex mb-1">
+                        <i class="fa-solid fa-envelope me-2 mt-3 size-icons-dash"></i>
+                        <input type="text" name="" id="" disabled class="size-input-text backgr-disabled "
+                               placeholder="">
+                    </div>
+                    <label for="" class="font-size-dashboard">Mensaje:</label>
+                    <div class="d-flex ms-4 mt-2 mb-3">
+                        <textarea name="" id="" disabled class="size-text-area2 backgr-disabled"></textarea>
+                    </div>
+                    <label for="" class="font-size-dashboard">Llamada programada</label>
+                    <div class="d-flex">
+                        <i class="fa-solid fa-calendar me-2 mt-3 mb-4 size-icons-dash"></i>
+                        <input type="text" name="" id="" disabled class="size-input-text mb-4 backgr-disabled"
+                               placeholder="">
+                    </div>
+                </div>
+            </div>
+           
+            <div class="cardPlanes mt-1 shadow">
+                <h6 class="p-2">Plan</h6>
+                <div class="CardMainPlanes">
+                    <div class="mb-2 mx-auto justify-content-center d-flex">
+                        <h5 class="font-size-dashboard mt-4 me-3">Plan:</h5>
+                        <select class="form-select size-select2  mt-3 mb-4" aria-label="Default select example">
+                            <option selected>Planes</option>
+                            <option value="1">Basic</option>
+                            <option value="2">Platinum</option>
+                            <option value="2">Ultimate</option>
+                        </select>
+                    </div>
+                    <div class="d-flex">
+                        <button class="btn backgr_orange mx-auto mb-3">Enviar link de pago</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="col mt-3">
+          
+            <div class="cardAgenda shadow ">
+                  <h6 class="p-2">Agenda</h6>
+                <div class="cardmain calendarioo scrollhost ">
+                    <script>
+
+                        document.addEventListener('DOMContentLoaded', function () {
+                            var initialLocaleCode = 'es';
+                            var localeSelectorEl = document.getElementById('locale-selector');
+                            var calendarEl = document.getElementById('calendar');
+
+                            var calendar = new FullCalendar.Calendar(calendarEl, {
+                                headerToolbar: {
+                                    left: 'prev,next today',
+                                    center: 'title',
+                                    right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
+                                },
+                                initialDate: '2020-09-12',
+                                locale: initialLocaleCode,
+                                theme: true,
+                                editable: true,
+                                buttonIcons: false, // show the prev/next text
+                                // weekNumbers: true,
+                                navLinks: true, // can click day/week names to navigate views
+                                editable: true,
+                                dayMaxEvents: true, // allow "more" link when too many events
+                                events: [
+                                    {
+                                        title: 'All Day Event',
+                                        start: '2020-09-01'
+                                    },
+                                    {
+                                        title: 'Conference',
+                                        start: '2020-09-11',
+                                        end: '2020-09-13'
+                                    },
+                                    {
+                                        title: 'Lunch',
+                                        start: '2020-09-12T12:00:00'
+                                    },
+                                    {
+                                        title: 'Happy Hour',
+                                        start: '2020-09-12T17:30:00'
+                                    },
+                                    {
+                                        title: 'Click for Google',
+                                        url: 'http://google.com/',
+                                        start: '2020-09-28'
+                                    }
+                                ]
+                            });
+
+                            calendar.render();
+
+                            // build the locale selector's options
+                            calendar.getAvailableLocaleCodes().forEach(function (localeCode) {
+                                var optionEl = document.createElement('option');
+                                optionEl.value = localeCode;
+                                optionEl.selected = localeCode == initialLocaleCode;
+                                optionEl.innerText = localeCode;
+                                localeSelectorEl.appendChild(optionEl);
+                            });
+
+                            // when the selected option changes, dynamically change the calendar option
+                            localeSelectorEl.addEventListener('change', function () {
+                                if (this.value) {
+                                    calendar.setOption('locale', this.value);
+                                }
+                            });
+
+                        });
+
+                    </script>
+                    <div id='calendar'></div>
+                </div>
+            </div>
+            
+                 <div class="table-lead shadow table-responsive ">
+                <table class="table table-hover">
+                    <tr>
+                    <th scope="col"><h6 class="text-title-table">#</h6></th>
+                    <th scope="col"><h6 class="text-title-table">Fecha, hora</h6></th>
+                    <th scope="col" class="text-center"><h6 class="text-title-table">Medio de contacto</h6></th>
+                    <th scope="col" class="text-center"><h6 class="text-title-table">Comentarios</h6></th>
+                    <th scope="col" class="text-center"><h6 class="text-title-table">Estatus</h6></th>
+                    <th scope="col"><h6 class="text-title-table">Acciones</h6></th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td scope="row" class="text-comment">1</td>
+                            <td class="text-comment">3/10/22 10:00 am</td>
+                            <td>
+                                <div class=" d-flex justify-content-center">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </div>
+                            </td>
+                            <td class="text-comment">Lorem ipsum</td>
+                            <td class=" text-comment mt-1 ms-3 text-center"><h6 class="backgr-estatus-aprobado">Seguimiento</h6></td>
+                            <td>
+                                <div class=" d-flex justify-content-center">
+                                    <a class=" pa-vermas-publi style-vermas" asp-controller="" asp-action="">
+
+                                        <ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon "></ion-icon>
+                                    </a>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td scope="row" class="text-comment">2</td>
+                            <td class="text-comment">3/10/22 10:00 am</td>
+                            <td>
+                                <div class=" d-flex justify-content-center">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </div>
+                            </td>
+                            <td class="text-comment">Lorem ipsum.</td>
+                            <td class=" text-success text-comment mt-1 ms-3"><h6 class="backgr-estatus-aprobado">Seguimiento</h6></td>
+                            <td>
+                                <div class=" d-flex justify-content-center">
+                                    <a class=" pa-vermas-publi style-vermas" asp-controller="" asp-action="">
+
+                                        <ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon "></ion-icon>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="text-comment">3</td>
+                            <td class="text-comment">3/10/22 10:00 am</td>
+                            <td>
+                                <div class=" d-flex justify-content-center">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </div>
+                            </td>
+                            <td class="text-comment">Lorem ipsum.</td>
+                            <td class="text-success text-comment mt-1 ms-3"><h6 class="backgr-estatus-aprobado">Seguimiento</h6></td>
+                            <td>
+                                <div class=" d-flex justify-content-center">
+                                    <a class=" pa-vermas-publi style-vermas" asp-controller="" asp-action="">
+
+                                        <ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon "></ion-icon>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="text-comment">4</td>
+                            <td class="text-comment">3/10/22 10:00 am</td>
+                            <td>
+                                <div class=" d-flex justify-content-center">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </div>
+                            </td>
+                            <td class="text-comment">Lorem ipsum.</td>
+                            <td class=" text-success text-comment mt-1 ms-3"><h6 class="backgr-estatus-aprobado">Seguimiento</h6></td>
+                            <td>
+                                <div class=" d-flex justify-content-center">
+                                    <a class=" pa-vermas-publi style-vermas" asp-controller="" asp-action="">
+
+                                        <ion-icon name="ellipsis-horizontal-circle" class="size-mp-icons-vermas position-icon "></ion-icon>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                    </tr>
+                </table>
+            </div>
+          
+           
+        </div>
+    </div>
+</div>
